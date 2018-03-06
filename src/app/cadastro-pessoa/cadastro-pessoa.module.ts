@@ -1,4 +1,4 @@
-import { MaterialComponentsModule } from './../material-components.module';
+import { MaterialComponentsModule } from './../material-components-module/material-components.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CadastroPessoaFormComponent } from './cadastro-pessoa-form/cadastro-pessoa-form.component';

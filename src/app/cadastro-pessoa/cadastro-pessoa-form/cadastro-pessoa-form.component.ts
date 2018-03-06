@@ -15,6 +15,7 @@ export class CadastroPessoaFormComponent implements OnInit {
   }
 
   formSubmit(f: NgForm) {
+
     this.angularFire.list('pessoas').push(
       {
         nome: f.controls.nome.value,
