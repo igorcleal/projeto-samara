@@ -1,0 +1,10 @@
+<h1>Cadastro de pessoa</h1>
+
+<form #f="ngForm" (submit)="formSubmit(f)">
+  <input type="text" ngModel name="nome" placeholder="Nome">
+  <br/>
+  <input matInput type="text" ngModel name="sobrenome" placeholder="Sobrenome">
+  <input matInput type="text">
+  <button type="submit">Cadastrar</button>
+</form>
+
