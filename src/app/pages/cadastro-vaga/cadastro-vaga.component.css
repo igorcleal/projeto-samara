@@ -1,0 +1,10 @@
+.div-card {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-cadastro{
+    width: 50%;
+    min-width: 400px;
+}
