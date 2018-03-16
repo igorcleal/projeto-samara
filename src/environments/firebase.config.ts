@@ -1,8 +1,8 @@
 export const FirebaseConfig = {
-    apiKey: 'AIzaSyBQH4FNSPkeoTjYHXF_NODsb-_is7fTUTk',
-    authDomain: 'samara-166fa.firebaseapp.com',
-    databaseURL: 'https://samara-166fa.firebaseio.com',
-    projectId: 'samara-166fa',
-    storageBucket: 'samara-166fa.appspot.com',
-    messagingSenderId: '80897181145'
+    apiKey: 'AIzaSyBbfzcu-Ux_YwiGufBJP0GMqYHWCXS3MW8',
+    authDomain: 'vagas-e7824.firebaseapp.com',
+    databaseURL: 'https://vagas-e7824.firebaseio.com',
+    projectId: 'vagas-e7824',
+    storageBucket: '',
+    messagingSenderId: '261767328186'
 };

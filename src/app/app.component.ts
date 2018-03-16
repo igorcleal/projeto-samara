@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,9 @@ export class AppComponent {
   title = 'Teste';
   nome = 'oi';
 
-  testeClick() {
-    alert('a');
+  constructor( private router: Router) {}
+
+  abrirCadastro() {
+    this.router.navigate(['./cadastroVaga']);
   }
 }

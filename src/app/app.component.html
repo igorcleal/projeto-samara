@@ -1,3 +1,11 @@
-<app-cadastro-portfolio>
-</app-cadastro-portfolio>
+<mat-toolbar color="primary">
+  My App
+  <span class="example-spacer"></span>
+  <button (click)="abrirCadastro()" mat-raised-button color="accent" class="example-icon">
+    + Vaga
+  </button>
+</mat-toolbar>
 
+<router-outlet></router-outlet>
+
+<a routerLink="cadastro"> teste </a>
